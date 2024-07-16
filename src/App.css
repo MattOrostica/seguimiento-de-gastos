@@ -1,0 +1,100 @@
+/* Fondo de la página */
+body {
+  background-image: url('./images/blue.jpeg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center; 
+}
+
+/* Estilo general para las tarjetas de formulario de gastos y lista de gastos */
+.card {
+  background-color: rgba(248, 249, 250, 0.9); 
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 0.65rem; 
+  margin-bottom: 8rem; 
+  padding: 0.1rem; 
+}
+
+/* Estilo para el formulario de gastos */
+.card-formulario {
+  border: 2px solid #ced4da; 
+  border-radius: 0.25rem; 
+}
+
+/* Estilo específico para la lista de gastos */
+.card-lista {
+  border: 2px solid #ced4da;
+  border-radius: 1.25rem; 
+}
+
+/* Estilo para el título del formulario de gastos */
+.card-formulario .card-title {
+  font-size: 1.2rem; 
+  font-weight: bold; 
+}
+
+/* Estilo para el título de la lista de gastos */
+.card-lista .card-title {
+  font-size: 1.2rem; 
+  font-weight: bold; 
+}
+
+/* Estilo para el contenedor del formulario de gastos */
+.card-body {
+  padding: 1.5rem; 
+}
+
+/* Estilo para el título principal */
+.titulo-principal {
+  color: #020d11; 
+  text-align: center; 
+  margin-bottom: 2.5rem; 
+  font-size: 2rem; 
+  font-weight: bold; 
+}
+
+/* Estilo para la barra de búsqueda */
+.input-busqueda {
+  width: 100%; 
+  padding: 1rem; 
+  margin-bottom: 0.4rem; 
+  font-size: 1rem; 
+}
+
+/* Estilo para la búsqueda */
+select.form-control {
+  width: 100%; 
+  padding: 0.4rem;
+  margin-bottom: 0.5rem; 
+  font-size: 1rem; 
+}
+
+/* Estilo para la descripción del gasto */
+.descripcion-gasto {
+  font-size: 1rem; 
+  font-weight: bold; 
+}
+
+/* Estilo para la categoría del gasto */
+.categoria-gasto {
+  font-size: 0.875rem; 
+  color: #006ac8; 
+}
+
+/* Estilo para el monto del gasto */
+.monto-gasto {
+  font-size: 1rem; 
+  font-weight: bold; 
+}
+
+/* Estilo para la fecha del gasto */
+.fecha-gasto {
+  font-size: 0.875rem; 
+  color: #6c757d; 
+}
+
+/* Asegurar que los textos se ajusten al tamaño del cuadro */
+input, .form-control {
+  font-size: 1rem; 
+}
